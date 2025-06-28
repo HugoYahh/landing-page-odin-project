@@ -6,17 +6,16 @@ body{
     
 }
 
-header, footer{
+header, footer, .hero{
     background-color: #1f2937;
 }
 
 .header{
-    display: flex;
-    
-    
+    display: flex;    
     justify-content: space-between;
     flex-grow: 1;
-    padding: 16px 200px;
+    padding: 16px 200px 0px 200px;
+    align-items: center;
     
 }
 
@@ -38,4 +37,39 @@ header, footer{
     margin: 0;
     display: flex;
     gap:16px ;
+}
+
+.hero{
+    display: flex;
+    padding: 150px 200px;
+    gap: 48px;
+    justify-content: space-between;
+}
+
+.hero img{
+    width:700px ;
+    height: auto;
+}
+
+.hero h1{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    max-width: 350px;
+}
+
+.hero p{
+    font-size: 18px;
+    color: #E5E7EB;
+    max-width: 475px;
+}
+
+.hero button{
+    background-color: #3882f6;
+    color: white;
+    border-radius: 6px;
+    font-size: 16px;
+    padding: 9px 36px;
+    border: 0px;
+    font-weight: bold;
 }
