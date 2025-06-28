@@ -102,3 +102,26 @@ header, footer, .hero{
     text-align: center;
     color: grey;
 }
+.quote #text{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: 300;
+}
+
+.quote #autor{
+    font-weight: bold;
+    font-size: 24px;
+    align-self: flex-end;
+    
+}
+
+.quote{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E5E7EB;
+    
+    
+    padding: 100px 500px;
+}
