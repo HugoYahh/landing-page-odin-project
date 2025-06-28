@@ -1,0 +1,41 @@
+body{
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    
+}
+
+header, footer{
+    background-color: #1f2937;
+}
+
+.header{
+    display: flex;
+    
+    
+    justify-content: space-between;
+    flex-grow: 1;
+    padding: 16px 200px;
+    
+}
+
+.header .header-logo{
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+.right-links a{
+    text-decoration-line: none;
+    color: #e5e7eb;;
+    font-size: 18px;
+}
+
+.right-links{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap:16px ;
+}
