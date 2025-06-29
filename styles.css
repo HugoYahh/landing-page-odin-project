@@ -147,6 +147,8 @@ button{
 
 .call-to-action button{
     border-color: white;
+    border-style:solid;
+    
     
 }
 
@@ -161,4 +163,12 @@ button{
  color: white;
  margin: 0;
  font-size: 18px;
+}
+
+.footer{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
 }
