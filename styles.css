@@ -66,14 +66,22 @@ header, footer, .hero{
     max-width: 475px;
 }
 
-.hero button{
+button{
     background-color: #3882f6;
     color: white;
     border-radius: 6px;
-    font-size: 16px;
     padding: 9px 36px;
-    border: 0px;
     font-weight: bold;
+    font-size: 16px;
+}
+
+.hero button{
+    
+    
+    
+    
+    border: 0px;
+    
 }
 .information{
     display: flex;
@@ -107,12 +115,14 @@ header, footer, .hero{
     font-style: italic;
     color: #1F2937;
     font-weight: 300;
+    margin: 0;
 }
 
 .quote #autor{
     font-weight: bold;
-    font-size: 24px;
+    font-size: 28px;
     align-self: flex-end;
+    margin: 0;
     
 }
 
@@ -121,7 +131,34 @@ header, footer, .hero{
     flex-direction: column;
     align-items: center;
     background-color: #E5E7EB;
+    padding: 150px 525px;
+}
+
+.call-to-action{
+    display: flex;
+    background-color: #3882F6;
+    margin: 100px 200px;
+    padding: 60px 0px;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    gap: 50px;
+}
+
+.call-to-action button{
+    border-color: white;
     
-    
-    padding: 100px 500px;
+}
+
+.call-to-action h4{
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    margin: 0;
+}
+
+.call-to-action p{
+ color: white;
+ margin: 0;
+ font-size: 18px;
 }
